@@ -5,17 +5,26 @@
 @tailwind utilities;
 
 :root {
-  --black-gradient: linier-gradient(
+  --black-gradient: linear-gradient(
     144.39deg,
-    #fff -278.56%,
+    #ffffff -278.56%,
     #6d6d6d -78.47%,
     #11101d 91.61%
   );
-  --card-shaodw: 0px 20px 100px -20px rgba(66, 71, 91, 0.1);
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
 
 * {
   scroll-behavior: smooth;
+}
+
+.black-gradient {
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
 }
 
 .text-gradient {

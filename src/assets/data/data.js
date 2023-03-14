@@ -13,7 +13,7 @@ import {
   send,
   shield,
   star,
-} from "../assets/img";
+} from "../img";
 
 export const navLinks = [
   {
