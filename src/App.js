@@ -34,8 +34,8 @@ const App = () => {
           <Stats />
           <Business />
           <Billing />
-          <Testimoni />
           <CardDeal />
+          <Testimoni />
           <Clients />
           <Cta />
           <Footer />
