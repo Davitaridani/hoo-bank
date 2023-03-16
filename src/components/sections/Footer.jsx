@@ -16,32 +16,25 @@ const Footer = () => {
 						<div className="flex flex-col ss:my-0 my-4 min-w-[150px]" key={footerLinks.key}>
 							<h3 className="font-medium font-poppins text-[19px] leading-[27px] text-white">{footerLinks.title}</h3>
 							<ul className="list-none mt-10">
-								{
-									footerLinks.links.map((itemLink, index) => (
-										<li key={itemLink.name} className={`font - poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${index !== footerLinks.links.length - 1 ? "mb-4" : "mb-0"}`}>
-											{itemLink.name}
-										</li>
-									))
-								}
-								<li></li>
+								{footerLinks.links.map((itemLink, index) => (
+									<li key={itemLink.name} className={`font - poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${index !== footerLinks.links.length - 1 ? "mb-4" : "mb-0"}`}>
+										{itemLink.name}
+									</li>
+								))}
 							</ul>
 						</div>
 					))}
 				</div>
 			</div>
-
 			<div className="footer-copyright w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-[#3f3e45]">
 				<p className="font-normal font-poppins text-center text-[15px] leading-[27px] text-dimWhite">2023 HooBank Web By Ahmat Davit. All Rights Reserved.</p>
-
 				<div className="flex flex-row md:mt-0 mt-6">
 					{socialMedia.map((item, index) => (
 						<img key={item.id} src={item.icon} alt={item.id} className={`w-[20px] h-[20px] object-contain cursor-pointer ${index !== socialMedia.length - 1 ? "mr-6" : "mr-0"}`} />
 					))}
 				</div>
 			</div>
-
 		</footer >
 	)
 }
-
 export default Footer
