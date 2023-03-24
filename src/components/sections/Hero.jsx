@@ -23,7 +23,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="flex flex-row justify-between items-center w-full ">
+        <div className="flex flex-row justify-between items-center w-full relative z-[0]">
           <h1 className="flex-1 font-poppins font-semibold sm:text-[45px] md:text-[72px] text-[30px] text-white md:leading-[100px] sm:leading-[60px] leading-[60px]"
             data-aos="fade-right"
             data-aos-duration="2000"
