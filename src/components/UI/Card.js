@@ -15,7 +15,7 @@ const Card = ({ icon, title, content, index }) => {
         <img
           src={icon}
           alt="icon"
-          className="w-[25px] h-[25px] sm:w-[50%] sm:h-[50%] object-contain"
+          className="w-[25px] h-[25px] sm:w-[30px] sm:h-[30px] md:w-[50%] md:h-[50%] object-contain animate-bounce-in"
         />
       </div>
 

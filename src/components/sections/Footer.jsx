@@ -7,7 +7,7 @@ const Footer = () => {
 		<footer className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
 			<div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
 				<div className="flex-1 flex flex-col justify-start mr-10">
-					<img src={logo} alt="footer" className="sm:w-[260px] sm:h-[70px] w-[150px] h-[50px] object-contain" />
+					<img src={logo} alt="footer" className="md:w-[260px] md:h-[70px] sm:w-[180px] sm:h-[90px] w-[150px] h-[50px] object-contain" />
 					<p className={`${styles.paragraph} mt-4 max-w-[310px]`}>A new way to make the payments easy, reliable and secure.</p>
 				</div>
 
