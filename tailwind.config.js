@@ -13,8 +13,7 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
       },
     },
-
-    meduaQuery: {
+    screens: {
       xs: "480px",
       ss: "620px",
       sm: "768px",
